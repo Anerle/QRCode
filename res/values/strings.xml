@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">QRCode</string>
+    <string name="app_name_zh">QR码编解码</string>
+    
+    <!-- main -->
+    <string name="generate">Generate</string>
+    <string name="embed_logo">Embed Logo</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="more">More Format</string>
+    <string name="open_camera">Open camera</string>
+    <string name="open_image">Open image</string>
+    <string name="scan_result">Scan result：</string>
+    <string name="input_hint">Input the text</string>
+    <string name="scan_barcode">扫一扫</string>
+    
+    <!-- other_format -->
+    <string name="text">Text</string>
+    <string name="wifi">Wifi</string>
+    <string name="messages">Messages</string>
+    <string name="contacts">Contacts</string>
+    <string name="otherFormat">OtherFormat</string>
+    <string name="ok">完成</string>
+    <string name="text_hint">支持普通文本、网址和E-mail地址</string>
+    <string name="wifi_name_hint">SSID/无线账号</string>
+    <string name="wifi_pwd_hint">密码</string>
+    <string name="contacts_name_hint">请输入姓名</string>
+    <string name="contacts_tel_hint">请输入电话</string>
+    <string name="contacts_email_hint">请输入电子邮箱</string>
+    <string name="contacts_qq_hint">请输入QQ账号</string>
+    <string name="contacts_company_hint">请输入公司名</string>
+    <string name="contacts_address_hint">请输入地址</string>
+    <string name="messages_recipient_hint">收信人手机号码</string>
+    <string name="messages_content_hint">短信内容</string>
+    
+    <string name="history_clear_one_history_text">删除</string>
+    <string name="msg_unmount_usb">抱歉，SD卡不可访问。</string>
+    <string name="history_email_title">条码扫描器历史</string>
+    <string name="button_ok">确定</string>
+    <string name="msg_sure">你确定吗？</string>
+    <string name="button_cancel">取消</string>
+    <string name="history_send">发送历史</string>
+    <string name="history_clear_text">删除历史</string>
+    <string name="history_empty">空的</string>
+  	<string name="history_empty_detail">没有条码生成记录</string>
+  	<string name="history">Coding History</string>
+  	
+  	<string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <!-- <include layout = "@layout/other_format_title"/> -->
+
+    <EditText
+        android:id="@+id/et_cantacts_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="@string/contacts_name_hint" />
+    <EditText
+        android:id="@+id/et_contacts_tel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:hint="@string/contacts_tel_hint" />
+    <EditText
+        android:id="@+id/et_contacts_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="30dp"
+        android:hint="@string/contacts_email_hint" />
+    <EditText
+        android:id="@+id/et_contacts_qq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:hint="@string/contacts_qq_hint" />
+    <EditText
+        android:id="@+id/et_contacts_company"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="@string/contacts_company_hint" />
+    <EditText
+        android:id="@+id/et_contacts_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="@string/contacts_address_hint" />
+    
+
+</LinearLayout>
