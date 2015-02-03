@@ -20,7 +20,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".BarCodeTestActivity"
+            android:name="com.tiny.qrcode.BarCodeTestActivity"
             android:label="@string/app_name_zh" >
             <!-- android:launchMode="singleInstance" -->
             <intent-filter>
@@ -37,7 +37,7 @@
             android:windowSoftInputMode="stateAlwaysHidden" >
         </activity>
         <activity
-            android:name=".more.MoreFormatActivity"
+            android:name="com.tiny.qrcode.more.MoreFormatActivity"
             android:label="@string/ok">
             <!-- android:parentActivityName=".BarCodeTestActivity" > -->
             <intent-filter>
@@ -51,7 +51,7 @@
                 android:value=".BarCodeTestActivity" /> -->
         </activity>
         <activity
-            android:name="org.madmatrix.zxing.android.history.HistoryActivity"
+            android:name="com.zxing.android.history.HistoryActivity"
             android:label="@string/history" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />

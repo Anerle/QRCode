@@ -54,7 +54,7 @@
         android:layout_marginTop="30dp"
         android:hint="@string/input_hint"/> -->
         
-    <com.ericssonlabs.ClearEditText  
+    <com.tiny.qrcode.ClearEditText  
         android:id="@+id/et_qr_string"  
         android:layout_width="fill_parent"  
         android:layout_marginTop="30dp"
@@ -62,7 +62,7 @@
         android:drawableRight="@drawable/delete_selector"  
         android:hint="@string/input_hint"
         android:layout_height="wrap_content" >
-    </com.ericssonlabs.ClearEditText>
+    </com.tiny.qrcode.ClearEditText>
     
     <LinearLayout 
         android:orientation="horizontal"
